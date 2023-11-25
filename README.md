@@ -6,7 +6,7 @@ Replica of a bravaland website (Top Announcement + Navbar + Banner + semi-circul
 
 ## Live Site
 
-Check out the live site [here](https://c4r-hub.vercel.app/).
+Check out the live site [here](https://brava-clone.vercel.app/).
 
 ## Installation
 
