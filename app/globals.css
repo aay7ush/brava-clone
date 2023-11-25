@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .hover-effect {
+    @apply hover:text-clr-yellow before:content-[''] before:w-0 before:h-0.5 before:-bottom-1 before:absolute before:bg-clr-yellow before:invisible before:transition-all before:duration-300 before:ease-in-out hover:before:w-full hover:before:visible;
+  }
+
+  .hover {
+    @apply transition duration-300 hover:text-clr-yellow;
+  }
+}

@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar"
 import TopAnnouncement from "@/components/TopAnnouncement"
 import type { Metadata } from "next"
 import "./globals.css"
@@ -15,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <TopAnnouncement />
+        <header className="bg-clr-dark-gray text-white">
+          <TopAnnouncement />
+          <Navbar />
+        </header>
         <main>{children}</main>
       </body>
     </html>
