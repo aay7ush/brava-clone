@@ -1,3 +1,5 @@
+import HeroBanner from "@/components/HeroBanner"
+
 export default function Home() {
-  return <h1 className="font-bold">Ready to build</h1>
+  return <HeroBanner />
 }
