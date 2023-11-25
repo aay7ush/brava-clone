@@ -1,17 +1,10 @@
 "use client"
 
+import { CARDS } from "@/constants"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick-theme.css"
 import "slick-carousel/slick/slick.css"
 import Card from "./Card"
-
-const cards = [
-  { title: "$hosky", image: "slideshow_1.svg" },
-  { title: "bitfins", image: "slideshow_2.svg" },
-  { title: "future fest", image: "slideshow_3.svg" },
-  { title: "vudu brigada", image: "slideshow_4.svg" },
-  { title: "pendulum", image: "slideshow_5.svg" },
-]
 
 export default function Slideshow() {
   const settings = {
@@ -42,7 +35,7 @@ export default function Slideshow() {
   return (
     <div className="py-20 max-w-7xl mx-auto px-2.5 md:px-5">
       <Slider {...settings}>
-        {cards.map((card) => (
+        {CARDS.map((card) => (
           <Card key={card.title} title={card.title} image={card.image} />
         ))}
       </Slider>

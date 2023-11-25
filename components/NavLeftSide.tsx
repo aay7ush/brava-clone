@@ -1,32 +1,6 @@
+import { APPAREL_LINKS, BRAND_LINKS, HOME_LINKS } from "@/constants"
 import { ChevronDown } from "lucide-react"
 import Link from "next/link"
-
-const BRAND_LINKS = [
-  { title: "all brands", url: "/" },
-  { title: "$hosky", url: "/" },
-  { title: "$bitfins", url: "/" },
-  { title: "cardano stonerz club", url: "/" },
-  { title: "cryptoraggies", url: "/" },
-  { title: "danketsu", url: "/" },
-  { title: "future fest", url: "/" },
-  { title: "pendulum", url: "/" },
-  { title: "vudu brigada", url: "/" },
-]
-
-const APPAREL_LINKS = [
-  { title: "unisex hoodies", url: "/" },
-  { title: "unisex zip hoodies", url: "/" },
-  { title: "unisex sweatshirts", url: "/" },
-  { title: "unisex tees", url: "/" },
-  { title: "women's tanks", url: "/" },
-  { title: "unisex tanks", url: "/" },
-]
-
-const HOME_LINKS = [
-  { title: "phone cases", url: "/" },
-  { title: "framed posters", url: "/" },
-  { title: "posters", url: "/" },
-]
 
 export default function NavLeftSide() {
   return (

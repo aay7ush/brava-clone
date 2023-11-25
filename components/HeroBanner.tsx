@@ -41,7 +41,6 @@ export default function HeroBanner() {
     slidesToScroll: 1,
     initialSlide: 2,
     nextArrow: <CustomArrow icon={<ArrowRight />} direction="right" />,
-
     prevArrow: <CustomArrow icon={<ArrowLeft />} direction="left" />,
   }
 
