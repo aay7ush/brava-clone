@@ -1,12 +1,7 @@
+import { SlideProps } from "@/types"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-
-interface SlideProps {
-  image: string
-  title: string
-  right?: boolean
-}
 
 export default function Slide({ image, title, right }: SlideProps) {
   return (

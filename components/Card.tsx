@@ -1,10 +1,6 @@
+import { CardProps } from "@/types"
 import Image from "next/image"
 import Link from "next/link"
-
-interface CardProps {
-  image: string
-  title: string
-}
 
 export default function Card({ image, title }: CardProps) {
   return (

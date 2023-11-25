@@ -1,16 +1,11 @@
 "use client"
 
+import { CustomArrowProps } from "@/types"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick-theme.css"
 import "slick-carousel/slick/slick.css"
 import Slide from "./Slide"
-
-interface CustomArrowProps {
-  onClick?: React.MouseEventHandler<HTMLDivElement>
-  icon: JSX.Element
-  direction: string
-}
 
 const CustomArrow = ({ onClick, icon, direction }: CustomArrowProps) => (
   <div
